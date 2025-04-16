@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/galaxy-tab-s8-samsung-stock-amoled-dark-mode-black-3840x2160-7530.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    margin: 2rem;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: left; 
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .verde {
+    color: #00ff88; 
+  }
+  
+  .bianco {
+    color: #ffffff;
+  }
+  
+  .rosso {
+    color: #ff4c4c; 
+  }
+  
+  
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .btn {
+    background-color: #ff8c00; 
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #d4780e; 
+  }
+  
