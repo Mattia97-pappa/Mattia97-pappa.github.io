@@ -57,7 +57,7 @@ html, body {
   }
   
   .btn {
-    background-color: #ff8c00; 
+    background-color: #64b5f6; 
     color: white;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
@@ -67,6 +67,6 @@ html, body {
   }
   
   .btn:hover {
-    background-color: #d4780e; 
+    background-color: #42a5f5; 
   }
   
