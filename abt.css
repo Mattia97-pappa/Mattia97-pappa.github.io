@@ -30,7 +30,7 @@ html, body {
 
 
   .back-btn {
-    background-color: #005eff; 
+    background-color: #64b5f6; 
     color: white;
     font-size: 1rem;
     padding: 10px 20px;
@@ -43,7 +43,7 @@ html, body {
   }
   
   .back-btn:hover {
-    background-color: #d79a17; 
+    background-color: #42a5f5; 
   }
 
   
