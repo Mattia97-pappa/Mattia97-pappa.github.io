@@ -30,7 +30,7 @@
   }
   
   .back-btn {
-    background-color: #ff9900;
+    background-color: #64b5f6;
     color: white;
     font-size: 1rem;
     padding: 10px 20px;
@@ -42,7 +42,7 @@
   }
   
   .back-btn:hover {
-    background-color: #d79a17;
+    background-color: #42a5f5;
   }
   
   .project-img {
