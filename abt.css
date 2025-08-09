@@ -1,51 +1,60 @@
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-image: url('https://wallpapers.com/images/hd/blue-gradient-background-w2130wu0wd3iz5wq.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .content {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 2rem;
-    margin: 2rem;
-    max-width: 600px;
-    border-radius: 10px;
-    text-align: left; 
-  }
-  
-  
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://wallpapers.com/images/hd/blue-gradient-background-w2130wu0wd3iz5wq.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  margin: 2rem;
+  max-width: 600px;
+  border-radius: 10px;
+  text-align: left; 
+}
 
-  .back-btn {
-    background-color: #64b5f6; 
-    color: white;
-    font-size: 1rem;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 20px;
-  }
-  
-  .back-btn:hover {
-    background-color: #42a5f5; 
-  }
+.back-btn {
+  background-color: #64b5f6; 
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
 
-  
-  
-  
+.back-btn:hover {
+  background-color: #42a5f5; 
+}
+
+a {
+  color: #64b5f6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #42a5f5;
+  text-decoration: underline;
+  outline: none;
+}
+
+a:visited {
+  color: #64b5f6;
+}
